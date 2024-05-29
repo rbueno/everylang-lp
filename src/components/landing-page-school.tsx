@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import Image from 'next/image'
+import Head from 'next/head';
 import { Button } from "@/components/ui/button"
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 import { Card } from "@/components/ui/card"
@@ -84,6 +85,16 @@ const faq = [
 export function LandingPageSchool() {
   return (
     <>
+      <Head>
+        <title>Crie exercícios de pronúncia e gramática para seus alunos | Everylang</title>
+        <meta name="description" content="Crie exercícios de pronúncia e gramática para seus alunos." />
+        <link href="https://lp.everylang.ai" rel="canonical" />
+
+        <meta property="og:title" content="Crie exercícios de pronúncia e gramática para seus alunos" />
+        <meta property="og:url" content="https://lp.everylang.ai" />
+        <meta property="og:description" content="Crie exercícios de pronúncia e gramática para seus alunos" />
+        <meta property="og:image" content="https://www.everylang.ai/assets/everylang_logo_purple_square.png" />
+      </Head>
       <header className="fixed top-0 left-0 right-0 z-50 flex h-16 w-full items-center justify-between bg-white px-6 shadow-sm dark:bg-gray-950">
         <Link className="flex items-center gap-2" href="/">
         <Image
@@ -115,7 +126,7 @@ export function LandingPageSchool() {
             Confira
             </p> */}
             <div className="mb-4 flex items-center justify-center aspect-video w-full rounded-lg" >
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
               </div>
           </div>
          
