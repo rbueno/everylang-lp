@@ -1,5 +1,5 @@
-import { LandingPageHomeV2 } from '../components/landing-page-home-v2'
+import { LandingPageHome } from '../components/landing-page-home'
 
 export default function Home() {
-  return <LandingPageHomeV2 />
+  return <LandingPageHome />
 }

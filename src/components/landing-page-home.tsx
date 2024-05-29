@@ -29,6 +29,8 @@ import { Button } from "@/components/ui/button"
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 import { Card } from "@/components/ui/card"
 import { ShiftTextImageSection } from './ui/shift-text-side-image-section'
+import { Footer } from './footer'
+import { ArrowRightIcon } from './icons'
 
 const homeContent = [
   { 
@@ -90,7 +92,7 @@ const faq = [
   }
 ]
 
-export function LandingPageHomeV2() {
+export function LandingPageHome() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 flex h-16 w-full items-center justify-between bg-white px-6 shadow-sm dark:bg-gray-950">
@@ -104,12 +106,14 @@ export function LandingPageHomeV2() {
             />
           <span className="text-lg font-bold text-darkColor">Everylang</span>
         </Link>
-        <Button
-          className="bg-mainColor text-white hover:bg-darkColor"
-          size="sm"
-        >
-          Sou professor
-        </Button>
+
+        <Link
+                className="bg-mainColor text-white inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-darkColor focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-darkColor dark:focus-visible:ring-gray-300"
+                href="/school"
+              >
+              Sou professor
+              <ArrowRightIcon className="ml-2 h-4 w-4" />
+            </Link>
       </header>
       <main>
         <section className="relative h-[80vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-20">
@@ -205,61 +209,19 @@ export function LandingPageHomeV2() {
             <p className="max-w-md text-lg text-white">
             Utilize a tecnologia Everylang com seus alunos.
             </p>
-            <Button
-                className="mt-8 bg-white text-[#6c5ce7] hover:bg-gray-200 focus-visible:ring-white"
-                size="lg"
+          
+
+              <Link
+                className="bg-white text-[#6c5ce7] inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-300"
+                href="/school"
               >
-                Confira os benefícios
-              </Button>
+              Confira os benefícios
+              <ArrowRightIcon className="ml-2 h-4 w-4" />
+            </Link>
           </div>
         </section>
       </main>
-      <footer className="bg-gray-950 py-8 text-white">
-        <div className="container mx-auto flex flex-col items-center justify-between gap-8 md:flex-row">
-          <div className="flex flex-col items-center gap-4 md:items-start">
-            <Link className="flex items-center gap-2" href="https://www.everylang.ai">
-              {/* <MountainIcon className="h-6 w-6 text-[#6c5ce7]" /> */}
-              <span className="text-lg font-bold text-lightColor">Everylang</span>
-            </Link>
-            <div className="flex items-center gap-4">
-              <p>© All rights reserved - 2024</p>
-              {/* <Link className="text-gray-400 hover:text-white" href="#">
-                <TwitterIcon className="h-6 w-6" />
-              </Link>
-              <Link className="text-gray-400 hover:text-white" href="#">
-                <FacebookIcon className="h-6 w-6" />
-              </Link>
-              <Link className="text-gray-400 hover:text-white" href="#">
-                <InstagramIcon className="h-6 w-6" />
-              </Link> */}
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-4 md:items-start">
-            <h3 className="text-lg font-bold">Contact</h3>
-            {/* <div className="flex items-center gap-2">
-              <InboxIcon className="h-5 w-5 text-gray-400" />
-              <a className="text-gray-400 hover:text-white" href="#">
-                support@acme.com
-              </a>
-            </div> */}
-            <div className="flex items-center gap-2">
-              <WhatsAppIcon className="h-5 w-5 text-gray-400" />
-              <a className="text-gray-400 hover:text-white" href="#">
-                +55 (11) 97596-6675
-              </a>
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-4 md:items-start">
-            <h3 className="text-lg font-bold">Legal</h3>
-            <Link className="text-gray-400 hover:text-white" href="#">
-              Termos de uso
-            </Link>
-            <Link className="text-gray-400 hover:text-white" href="#">
-              Política de privacidade
-            </Link>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }
