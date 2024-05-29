@@ -36,7 +36,6 @@ export function Pricing() {
         </Link>
         <Button
           className="rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#5a4d7c] focus:outline-none focus:ring-2 focus:ring-[#6b5b95] focus:ring-offset-2 dark:bg-[#6b5b95] dark:hover:bg-[#5a4d7c] dark:focus:ring-[#6b5b95]"
-          variant="primary"
         >
           Get Started
         </Button>
@@ -86,7 +85,6 @@ export function Pricing() {
                 <p className="mt-2 text-4xl font-bold">R$ 29.99</p>
                 <Button
                   className="mt-4 w-full rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#5a4d7c] focus:outline-none focus:ring-2 focus:ring-[#6b5b95] focus:ring-offset-2 dark:bg-[#6b5b95] dark:hover:bg-[#5a4d7c] dark:focus:ring-[#6b5b95]"
-                  variant="primary"
                 >
                   Subscribe
                 </Button>
@@ -97,7 +95,6 @@ export function Pricing() {
                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">50% off, most popular</p>
                 <Button
                   className="mt-4 w-full rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#5a4d7c] focus:outline-none focus:ring-2 focus:ring-[#6b5b95] focus:ring-offset-2 dark:bg-[#6b5b95] dark:hover:bg-[#5a4d7c] dark:focus:ring-[#6b5b95]"
-                  variant="primary"
                 >
                   Subscribe
                 </Button>
