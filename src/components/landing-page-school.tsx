@@ -115,7 +115,7 @@ export function LandingPageSchool() {
             Confira
             </p> */}
             <div className="mb-4 flex items-center justify-center aspect-video w-full rounded-lg" >
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
               </div>
           </div>
          
