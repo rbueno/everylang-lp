@@ -264,7 +264,7 @@ export function LandingPageHomeV2() {
   )
 }
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(props: any) {
   return (
     <svg
       {...props}
@@ -284,7 +284,7 @@ function ChevronDownIcon(props) {
 }
 
 
-function FacebookIcon(props) {
+function FacebookIcon(props: any) {
   return (
     <svg
       {...props}
@@ -304,7 +304,7 @@ function FacebookIcon(props) {
 }
 
 
-function InboxIcon(props) {
+function InboxIcon(props: any) {
   return (
     <svg
       {...props}
@@ -325,7 +325,7 @@ function InboxIcon(props) {
 }
 
 
-function InstagramIcon(props) {
+function InstagramIcon(props: any) {
   return (
     <svg
       {...props}
@@ -347,7 +347,7 @@ function InstagramIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
@@ -367,7 +367,7 @@ function MountainIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -387,7 +387,7 @@ function PhoneIcon(props) {
 }
 
 
-function TwitterIcon(props) {
+function TwitterIcon(props: any) {
   return (
     <svg
       {...props}
@@ -406,7 +406,7 @@ function TwitterIcon(props) {
   )
 }
 
-function WhatsAppIcon(props) {
+function WhatsAppIcon(props: any) {
   return (
   <svg 
     {...props}

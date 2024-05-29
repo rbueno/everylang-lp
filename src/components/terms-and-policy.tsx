@@ -120,7 +120,7 @@ export function TermsAndPolicy() {
   )
 }
 
-function MailIcon(props) {
+function MailIcon(props: any) {
   return (
     <svg
       {...props}
@@ -141,7 +141,7 @@ function MailIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
@@ -161,7 +161,7 @@ function MountainIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
