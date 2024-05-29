@@ -35,7 +35,7 @@ export function PricingV2() {
           <MountainIcon className="h-6 w-6 text-[#6b5b95]" />
           <span className="ml-2 text-lg font-semibold text-[#6b5b95]">Acme Inc</span>
         </Link>
-        <Button className="rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#6b5b95]/90" variant="solid">
+        <Button className="rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#6b5b95]/90" >
           Get Started
         </Button>
       </header>
@@ -94,7 +94,6 @@ export function PricingV2() {
                   <CardFooter>
                     <Button
                       className="w-full rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#6b5b95]/90"
-                      variant="solid"
                     >
                       Get Started
                     </Button>
@@ -148,7 +147,6 @@ export function PricingV2() {
                   <CardFooter>
                     <Button
                       className="w-full rounded-md bg-[#6b5b95] px-4 py-2 text-white hover:bg-[#6b5b95]/90"
-                      variant="solid"
                     >
                       Get Started
                     </Button>

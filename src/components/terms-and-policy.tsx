@@ -37,7 +37,6 @@ export function TermsAndPolicy() {
           </Link>
           <Button
             className="bg-[#6b5b95] text-white hover:bg-[#6b5b95]/90 focus-visible:ring-[#6b5b95]"
-            variant="solid"
           >
             Get Started
           </Button>

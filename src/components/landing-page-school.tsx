@@ -37,7 +37,7 @@ export function LandingPageSchool() {
           <MountainIcon className={`h-6 w-6 text-[${themeColor.main}]`} />
           <span className={`text-lg font-semibold text-[${themeColor.main}]`}>Acme App</span>
         </Link>
-        <Button className={`bg-[${themeColor.main}] text-white hover:bg-[${themeColor.dark}]`} variant="solid">
+        <Button className={`bg-[${themeColor.main}] text-white hover:bg-[${themeColor.dark}]`} >
           Get Started
         </Button>
       </header>
