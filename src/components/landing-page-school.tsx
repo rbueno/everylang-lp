@@ -108,8 +108,8 @@ export function LandingPageSchool() {
         </Link>
       </header>
       <main>
-        <section className="relative h-[80vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-60">
-          <div className="container mx-auto flex h-full flex-col items-center justify-center gap-2 px-4 text-center">
+        <section className="relative h-[100vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-20">
+          <div className="container mx-auto flex h-full flex-col items-center justify-center gap-2 px-2 text-center">
             <Image
               priority
               src="/assets/logo/everylang_logo_transparent_square_fit.png" 
@@ -125,8 +125,8 @@ export function LandingPageSchool() {
             {/* <p className="max-w-md text-lg text-white">
             Confira
             </p> */}
-            <div className="mb-4 flex items-center justify-center aspect-video w-full rounded-lg" >
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
+              <div className="mb-4 flex items-center justify-center aspect-video w-full rounded-lg" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gJnMl3QwIfM?si=W3hI1MXBGgsJiU6V" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" />
               </div>
           </div>
          
@@ -139,9 +139,15 @@ export function LandingPageSchool() {
             </div>
           </div>
         </section>
+        <section className="w-full">
+          <div className="container mx-auto h-full gap-4 px-4">
+
         {
           homeContent.map((item) => (<ShiftTextImageSection key={item.headText} headText={item.headText} bodyText={item.bodyText} imageSRC={item.imageURL} imageWidth={500} imageHight={500} textSide={item.textPosition} />))
         }
+          </div>
+
+        </section>
         <section className="container mx-auto py-16">
           <h2 className="mb-8 text-center text-3xl font-bold text-[#6c5ce7]">Perguntas frequêntes</h2>
           <div className="grid gap-4">
@@ -200,7 +206,7 @@ export function LandingPageSchool() {
           </div>
         </section> */}
         <section className="relative h-[50vh] w-full bg-gradient-to-br from-mainColor to-darkColor">
-          <div className="container mx-auto flex h-full flex-col items-center justify-center gap-4 px-41 text-center">
+          <div className="container mx-auto flex h-full flex-col items-center justify-center gap-4 px-1 text-center">
             <h1 className="text-4xl font-bold text-white md:text-5xl lg:text-6xl">
             Crie uma conta grátis
             </h1>
