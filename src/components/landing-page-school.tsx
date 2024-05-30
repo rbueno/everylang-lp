@@ -108,7 +108,7 @@ export function LandingPageSchool() {
         </Link>
       </header>
       <main>
-        <section className="relative h-[80vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-20">
+        <section className="relative h-[80vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-60">
           <div className="container mx-auto flex h-full flex-col items-center justify-center gap-2 px-4 text-center">
             <Image
               priority
