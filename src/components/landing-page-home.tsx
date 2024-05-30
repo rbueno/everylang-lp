@@ -141,9 +141,15 @@ export function LandingPageHome() {
               </Button>
           </div>
         </section>
+
+        <section className="w-full">
+          <div className="container mx-auto h-full gap-4 px-4">
+
         {
           homeContent.map((item) => (<ShiftTextImageSection key={item.headText} headText={item.headText} bodyText={item.bodyText} imageSRC={item.imageURL} textSide={item.textPosition} />))
         }
+          </div>
+         </section> 
         <section className="container mx-auto py-16">
           <h2 className="mb-8 text-center text-3xl font-bold text-[#6c5ce7]">Perguntas frequêntes</h2>
           <div className="grid gap-4">
