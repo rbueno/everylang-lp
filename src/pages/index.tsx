@@ -132,13 +132,15 @@ export default function LandingPageHome() {
             <p className="max-w-md text-lg text-white">
             Teste grátis
             </p>
-            <Button
-                className="bg-white text-[#6c5ce7] hover:bg-gray-200"
-                size="lg"
-              >
-                <WhatsAppIcon className="mr-2 h-6 w-6" />
+            
+              <Link
+              
+                  className="bg-[#128c7e] text-white inline-flex items-center rounded-md bg-[#128c7e] px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-[#075e54] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-darkColor dark:focus-visible:ring-gray-300"
+                  href="https://wa.me/5511999284097?text=oi"
+                >
+                  <WhatsAppIcon className="mr-2 h-4 w-4" />
                 Começar agora
-              </Button>
+              </Link>
           </div>
         </section>
 

@@ -80,7 +80,7 @@ export function SupportDialog() {
               <div className="font-medium">Mais informações</div>
               <div>
                 <Link
-                  className="bg-[#128c7e] text-white inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-[#075e54] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-darkColor dark:focus-visible:ring-gray-300"
+                  className="bg-[#128c7e] text-white inline-flex items-center rounded-md bg-[#128c7e] px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-[#075e54] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-darkColor dark:focus-visible:ring-gray-300"
                   href="https://api.whatsapp.com/send?phone=5511975966675&text=Ol%C3%A1!%20Eu%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Everylang%20para%20professores."
                 >
                   <WhatsAppIcon className="mr-2 h-4 w-4" />
