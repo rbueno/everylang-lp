@@ -107,24 +107,13 @@ export default function LandingPageSchool() {
           <span className="text-lg font-bold text-darkColor">Everylang</span>
         </Link>
         
-        <div>
-
-        <Link
-                className="text-darkColor inline-flex items-center px-4 py-2 text-sm font-medium transition-colors hover:text-lightColor focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:text-gray-50 dark:text-gray-900 dark:hover:text-gray-200 dark:focus-visible:ring-gray-300"
-                href="https://www.everylang.ai/auth/login/"
-              >
-              Já tenho uma conta
-            </Link>
         <Link
                 className="bg-mainColor text-white inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-darkColor focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-darkColor dark:focus-visible:ring-gray-300"
                 href="https://www.everylang.ai/auth/register/"
               >
-              Criar conta
+              Criar conta grátis
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
-
-            
-        </div>
       </header>
       <main>
         <section className="relative h-[100vh] w-full bg-gradient-to-br from-darkColor to-mainColor pt-20">
@@ -152,7 +141,7 @@ export default function LandingPageSchool() {
                 className="bg-white text-[#6c5ce7] inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium shadow transition-colors hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-300"
                 href="https://www.everylang.ai/auth/register/"
               >
-              Criar conta
+              Criar conta grátis
               <ArrowRightIcon className="ml-2 h-4 w-4" />
             </Link>
               <Link
